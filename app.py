@@ -32,7 +32,6 @@ def monteCarlo(coefs, a, b, n_steps, iterations):
 
     height = abs(max_val - min_val)
     width = abs(b - a)
-    print(width, height)
     hits_neg = 0;
     hits_pos = 0;
 
